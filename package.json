@@ -1,0 +1,20 @@
+{
+  "name": "starter_tailwind_daisy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tw:watch": "tailwindcss -i ./static/css/input.css -o ./static/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.7",
+    "tailwindcss": "^4.1.7"
+  },
+  "devDependencies": {
+    "daisyui": "^5.0.35"
+  }
+}
