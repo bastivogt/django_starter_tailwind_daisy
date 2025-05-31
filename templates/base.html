@@ -11,6 +11,9 @@
     <title>Tailwind Test - {% block title %}{% endblock %}</title>
 </head>
 <body>
+    <nav>
+        {% include "includes/navbar.inc.html" %}
+    </nav>
     <main>
         {% block content %}{% endblock %}
     </main>
