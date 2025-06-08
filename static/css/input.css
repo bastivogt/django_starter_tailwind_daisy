@@ -15,10 +15,11 @@
 
   @layer components {
     .card {
-      background-color: var(--color-white);
+/*       background-color: var(--color-white);
       border-radius: var(--rounded-lg);
       padding: var(--spacing-6);
       box-shadow: var(--shadow-xl);
-      color: var(--color-black);
+      color: var(--color-black); */
+      @apply bg-white rounded-lg p-4 shadow-xl text-black;
     }
   }
